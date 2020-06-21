@@ -1,0 +1,145 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #06b3f8;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --mainPink: #fa0ce6;
+}
+
+body {
+  font-family: "Cambria", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  font-size: 22;
+}
+.background {
+  background-image: url("https://www.birthdays.lk/asset/images/default_shop_background.jpg");
+}
+
+.text-title {
+  font-family: "Marko One", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.logo1 {
+  height: 11vmin;
+  pointer-events: none;
+  width: 12vmin;
+}
+.carticon {
+  height: 5vmin;
+  pointer-events: all;
+  width: 5vmin;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.contact-body {
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2cm;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  border: 1px solid rgb(104, 82, 82) (34, 26, 26);
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.txt {
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*.mainpage {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo {
+  height: 30vmin;
+  pointer-events: none;
+  width: auto;
+  border-style: groove;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(60px + 2vmin);
+  color: rgb(228, 90, 90);
+}
+
+.App-link {
+  color: #9c282862;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
